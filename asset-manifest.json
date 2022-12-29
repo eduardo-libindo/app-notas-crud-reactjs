@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7033168a.css",
+    "main.js": "/static/js/main.f5bd69bd.js",
+    "static/js/787.a94a4c69.chunk.js": "/static/js/787.a94a4c69.chunk.js",
+    "static/media/spectrum-gradient.svg": "/static/media/spectrum-gradient.aa912370090cc7afb7b5.svg",
+    "index.html": "/index.html",
+    "main.7033168a.css.map": "/static/css/main.7033168a.css.map",
+    "main.f5bd69bd.js.map": "/static/js/main.f5bd69bd.js.map",
+    "787.a94a4c69.chunk.js.map": "/static/js/787.a94a4c69.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7033168a.css",
+    "static/js/main.f5bd69bd.js"
+  ]
+}

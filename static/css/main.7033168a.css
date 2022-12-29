@@ -1,0 +1,180 @@
+@import url(https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap);
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0
+}
+
+body {
+  background-attachment: fixed;
+  background-color: #fff;
+  background-image: url(../media/spectrum-gradient.aa912370090cc7afb7b5.svg);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Josefin Sans, sans-serif
+}
+
+.spinnerContainer {
+  margin: 20% auto;
+  max-width: 15%
+}
+
+.header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px
+}
+
+.app-header {
+  font-family: Josefin Sans, sans-serif
+}
+
+.container {
+  background-color: #fffaf0;
+  border-radius: 5px;
+  margin: 30px auto;
+  max-width: 600px;
+  min-height: 300px;
+  overflow: auto;
+  padding: 30px
+}
+
+.btn {
+  background: #000;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: inherit;
+  font-size: 15px;
+  margin: 5px;
+  padding: 10px 20px;
+  text-decoration: none
+}
+
+.btn:focus {
+  color: #fff;
+  outline: none
+}
+
+.btn-block {
+  display: block;
+  width: 100%
+}
+
+.nota {
+  background: #f4f4f4;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  margin: 5px auto;
+  max-width: 100%;
+  overflow: scroll;
+  padding: 10px 20px
+}
+
+.nota::-webkit-scrollbar {
+  display: none
+}
+
+.textoBold {
+  font-weight: 700
+}
+
+.delIcon {
+  color: tomato;
+  cursor: pointer
+}
+
+.editIcon {
+  color: skyblue;
+  cursor: pointer
+}
+
+.add-form {
+  margin-bottom: 40px
+}
+
+.form-control {
+  margin: 20px 0
+}
+
+.form-control label {
+  display: block
+}
+
+.form-control input {
+  height: 40px
+}
+
+.form-control input,
+.form-control textarea {
+  font-size: 17px;
+  margin: 5px;
+  padding: 3px 7px;
+  width: 100%
+}
+
+.form-control textarea {
+  height: 100px
+}
+
+.form-control input,
+textarea:focus {
+  outline: 0
+}
+
+@media (max-width:768px) {
+  .spinnerContainer {
+    margin: 250px auto 0;
+    max-width: 30%
+  }
+}
+
+@media (max-width:425px) {
+  .container {
+    max-width: 90%
+  }
+
+  .spinnerContainer {
+    margin: 250px auto 0;
+    max-width: 40%
+  }
+}
+
+@media (max-width:375px) {
+  .container {
+    max-width: 95%
+  }
+
+  .app-header {
+    font-size: 20px
+  }
+
+  .spinnerContainer {
+    margin: 250px auto 0;
+    max-width: 45%
+  }
+}
+
+@media (max-width:320px) {
+  .container {
+    max-width: 95%
+  }
+
+  .app-header {
+    font-size: 18px
+  }
+
+  .spinnerContainer {
+    margin: 250px auto 0;
+    max-width: 50%
+  }
+}
+
+/*# sourceMappingURL=main.7033168a.css.map*/
